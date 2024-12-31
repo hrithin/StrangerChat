@@ -1,0 +1,33 @@
+# Node Modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Build and Production Files
+/client/build
+/server/dist
+
+# Editor and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Uploads - Keep Folder, Ignore Contents
+/server/src/uploads/*
+!/server/src/uploads/.gitkeep
+
+# Cache and Temp
+/.cache
+/client/.cache
+/tmp
+
+# Coverage
+/coverage
